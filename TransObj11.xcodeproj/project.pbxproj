@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2402B9A41EEDCA5B00585719 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2402B9A31EEDCA5A00585719 /* Inceptionv3.mlmodel */; };
 		241082E61EE718F1009E1C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241082E51EE718F1009E1C86 /* AppDelegate.swift */; };
 		241082E81EE718F1009E1C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241082E71EE718F1009E1C86 /* ViewController.swift */; };
 		241082EB1EE718F1009E1C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241082E91EE718F1009E1C86 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2402B9A31EEDCA5A00585719 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		2402B9A61EEDCB3700585719 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
 		241082E21EE718F1009E1C86 /* TransObj11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransObj11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		241082E51EE718F1009E1C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		241082E71EE718F1009E1C86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,11 +38,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2402B9A51EEDCB3700585719 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2402B9A61EEDCB3700585719 /* Vision.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		241082D91EE718F1009E1C86 = {
 			isa = PBXGroup;
 			children = (
 				241082E41EE718F1009E1C86 /* TransObj11 */,
 				241082E31EE718F1009E1C86 /* Products */,
+				2402B9A51EEDCB3700585719 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +72,7 @@
 				241082EC1EE718F1009E1C86 /* Assets.xcassets */,
 				241082EE1EE718F1009E1C86 /* LaunchScreen.storyboard */,
 				241082F11EE718F1009E1C86 /* Info.plist */,
+				2402B9A31EEDCA5A00585719 /* Inceptionv3.mlmodel */,
 			);
 			path = TransObj11;
 			sourceTree = "<group>";
@@ -96,6 +109,7 @@
 				TargetAttributes = {
 					241082E11EE718F1009E1C86 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 					};
 				};
 			};
@@ -136,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				241082E81EE718F1009E1C86 /* ViewController.swift in Sources */,
+				2402B9A41EEDCA5B00585719 /* Inceptionv3.mlmodel in Sources */,
 				241082E61EE718F1009E1C86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +197,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -237,6 +254,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -272,8 +291,9 @@
 				DEVELOPMENT_TEAM = MM375HG2KC;
 				INFOPLIST_FILE = TransObj11/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bulbous.TransObj11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bulbousventuresllc.lemon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,8 +306,9 @@
 				DEVELOPMENT_TEAM = MM375HG2KC;
 				INFOPLIST_FILE = TransObj11/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bulbous.TransObj11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bulbousventuresllc.lemon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,6 +333,7 @@
 				241082F61EE718F1009E1C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
