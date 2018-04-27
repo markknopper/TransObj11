@@ -125,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 241082DD1EE718F1009E1C86 /* Build configuration list for PBXProject "TransObj11" */;
+			buildConfigurationList = 241082DD1EE718F1009E1C86 /* Build configuration list for PBXProject "LemonVision" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -337,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		241082DD1EE718F1009E1C86 /* Build configuration list for PBXProject "TransObj11" */ = {
+		241082DD1EE718F1009E1C86 /* Build configuration list for PBXProject "LemonVision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				241082F21EE718F1009E1C86 /* Debug */,

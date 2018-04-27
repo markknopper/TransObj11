@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TransObj11.xcodeproj">
+      location = "self:/Users/mak/projects/iOS and Watch Apps/TransObj11/LemonVision.xcodeproj">
    </FileRef>
 </Workspace>
