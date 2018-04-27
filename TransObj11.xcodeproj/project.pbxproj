@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2402B9A41EEDCA5B00585719 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2402B9A31EEDCA5A00585719 /* Inceptionv3.mlmodel */; };
 		241082E61EE718F1009E1C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241082E51EE718F1009E1C86 /* AppDelegate.swift */; };
 		241082E81EE718F1009E1C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241082E71EE718F1009E1C86 /* ViewController.swift */; };
 		241082EB1EE718F1009E1C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241082E91EE718F1009E1C86 /* Main.storyboard */; };
 		241082ED1EE718F1009E1C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241082EC1EE718F1009E1C86 /* Assets.xcassets */; };
 		241082F01EE718F1009E1C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241082EE1EE718F1009E1C86 /* LaunchScreen.storyboard */; };
+		243D39061FBA3CE30045C811 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 243D39051FBA3CE30045C811 /* MobileNet.mlmodel */; };
+		2448CAEA1F86E04700DA0744 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2448CAE91F86E04600DA0744 /* Inceptionv3.mlmodel */; };
+		2488EE311F941B6B00DE0991 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2488EE301F941B6B00DE0991 /* IAPHelper.swift */; };
+		2488EE331F941D9300DE0991 /* LemonProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2488EE321F941D9300DE0991 /* LemonProducts.swift */; };
+		24B6A6521FAE53F1009D501A /* PrerollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6A6511FAE53F1009D501A /* PrerollController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2402B9A31EEDCA5A00585719 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		2402B9A61EEDCB3700585719 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
 		241082E21EE718F1009E1C86 /* TransObj11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransObj11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		241082E51EE718F1009E1C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +28,11 @@
 		241082EC1EE718F1009E1C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		241082EF1EE718F1009E1C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		241082F11EE718F1009E1C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243D39051FBA3CE30045C811 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		2448CAE91F86E04600DA0744 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		2488EE301F941B6B00DE0991 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		2488EE321F941D9300DE0991 /* LemonProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LemonProducts.swift; sourceTree = "<group>"; };
+		24B6A6511FAE53F1009D501A /* PrerollController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrerollController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +76,15 @@
 			children = (
 				241082E51EE718F1009E1C86 /* AppDelegate.swift */,
 				241082E71EE718F1009E1C86 /* ViewController.swift */,
+				2488EE301F941B6B00DE0991 /* IAPHelper.swift */,
+				2488EE321F941D9300DE0991 /* LemonProducts.swift */,
 				241082E91EE718F1009E1C86 /* Main.storyboard */,
+				24B6A6511FAE53F1009D501A /* PrerollController.swift */,
 				241082EC1EE718F1009E1C86 /* Assets.xcassets */,
 				241082EE1EE718F1009E1C86 /* LaunchScreen.storyboard */,
 				241082F11EE718F1009E1C86 /* Info.plist */,
-				2402B9A31EEDCA5A00585719 /* Inceptionv3.mlmodel */,
+				2448CAE91F86E04600DA0744 /* Inceptionv3.mlmodel */,
+				243D39051FBA3CE30045C811 /* MobileNet.mlmodel */,
 			);
 			path = TransObj11;
 			sourceTree = "<group>";
@@ -104,7 +116,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Bulbous Ventures LLC";
 				TargetAttributes = {
 					241082E11EE718F1009E1C86 = {
@@ -150,8 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				241082E81EE718F1009E1C86 /* ViewController.swift in Sources */,
-				2402B9A41EEDCA5B00585719 /* Inceptionv3.mlmodel in Sources */,
+				2448CAEA1F86E04700DA0744 /* Inceptionv3.mlmodel in Sources */,
+				24B6A6521FAE53F1009D501A /* PrerollController.swift in Sources */,
 				241082E61EE718F1009E1C86 /* AppDelegate.swift in Sources */,
+				243D39061FBA3CE30045C811 /* MobileNet.mlmodel in Sources */,
+				2488EE311F941B6B00DE0991 /* IAPHelper.swift in Sources */,
+				2488EE331F941D9300DE0991 /* LemonProducts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +207,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -198,6 +215,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -225,7 +243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,6 +266,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -255,6 +274,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -276,9 +296,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
