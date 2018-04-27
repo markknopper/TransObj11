@@ -41,7 +41,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // test for source control
+        // should only appear in test_for_source_control branch.
         // Add title with icon to titleView centered on top. ***Hopefully this can be the destination of an animation from the splash screen.
         // First create a label containing attributed text with app title and icon as NSTextAttachment.
         let lemonImage = UIImage(named:"icon 42 transparent")
